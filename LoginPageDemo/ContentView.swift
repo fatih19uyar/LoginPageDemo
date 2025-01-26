@@ -82,6 +82,7 @@ struct ContentView: View {
                         .background(Color.blue)
                         .foregroundColor(.white)
                         .cornerRadius(8)
+                    
                 }
                 .padding(.top, 20)
                 Button(action: {
