@@ -99,6 +99,7 @@ struct ContentView: View {
             }
             .padding()
         }
+        .navigationBarBackButtonHidden(true)
     }
     func login(){
         if username.isEmpty || password.isEmpty {
